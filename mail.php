@@ -17,9 +17,6 @@ $mail->setFrom($email, $name);
 $mail->addReplyTo($email, $name);
 // Menambahkan penerima
 $mail->addAddress('fauzi190198@gmail.com');
-// Menambahkan cc atau bcc 
-$mail->addCC('cc@contoh.com');
-$mail->addBCC('bcc@contoh.com');
 // Subjek email
 $mail->Subject = $subject;
 // Mengatur format email ke HTML
