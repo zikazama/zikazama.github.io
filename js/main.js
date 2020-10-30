@@ -79,7 +79,7 @@ $(document).ready(function() {
 
     $(function() {
         typed.typed({
-            strings: ["Fauzi Fadhlur Rohman.", "Web Developer.", "Backend Developer.", "Freelancer.", "Full Stack Develover.", "Mobile Application Developer."],
+            strings: ["Fauzi Fadhlur Rohman.", "Web Developer.", "Backend Developer.", "Freelancer.", "Full Stack Developer.", "Mobile Application Developer."],
             typeSpeed: 100,
             loop: true,
         });
