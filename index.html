@@ -2,749 +2,887 @@
 <html lang="en">
 
 <head>
-    <!-- meta -->
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Fauzi Fadhlurrohman | Fullstack Engineer - Web Developer - Software Engineer</title>
-    <meta
-        content="website, fauzi fadhlurrohman, fullstack, web, software, codeigniter, design, brand"
-        name="keywords">
-    <meta
-        content="Saya Fauzi Fadhlurrohman seorang web develover atau seorang freelancer yang menerima jasa pemuatan website. Saya mengunguasai PHP dan javascript. Beberapa project saya dibuat menggunakan codeigniter, laravel serta flutter."
-        name="description">
+  <title>Fauzi Fadhlurrohman</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i"
-        rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png">
 
-    <!-- Bootstrap CSS File -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
-    <!-- Libraries CSS Files -->
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <link href="lib/hover/hover.min.css" rel="stylesheet">
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="lib/devicons/css/devicons.min.css" rel="stylesheet">
-    <link href="lib/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <!-- Main Stylesheet File -->
-    <link href="css/style.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- Responsive css -->
-    <link href="css/responsive.css" rel="stylesheet">
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.png">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VP8MPGV01E"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-205161360-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-205161360-1');
-
-        // gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
-    </script>
-
-    
-    <!-- =======================================================
-    Author: Fauzi
-  ======================================================= -->
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
 
-    <!-- start section navbar -->
-    <nav id="main-nav">
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="images/profile.jpeg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Fauzi Fadhlurrohman</a></h1>
+        <div class="social-links mt-3 text-center">
+          <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+          <a href="https://www.linkedin.com/in/fauzi-fadhlurrohman/" class="linkedin"><i
+              class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
+              <span>Portfolio</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Fauzi Fadhlurrohman</h1>
+      <p>I'm <span class="typed" data-typed-items="Software Enthusiastic, Developer, Freelancer, Mentor"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>As an experienced software developer with a background in full-stack and backend development, I possess
+            in-depth knowledge of a wide range of programming languages and technologies including JavaScript,
+            TypeScript, microservices, Golang, MySQL, NoSQL, CI/CD, and TDD.</p>
+          <p>Over the course of my career, I have demonstrated my ability to design and develop robust and scalable
+            software solutions, collaborating effectively with cross-functional teams and adhering to best practices in
+            software development.</p>
+          <p>My experience in TDD and CI/CD has enabled me to deliver high-quality code with minimal errors,
+            contributing to faster delivery times and enhanced customer satisfaction. My expertise in microservices
+            architecture has helped me design and develop efficient and scalable applications, delivering reliable and
+            high-performance solutions to meet business requirements.</p>
+          <p>As a lifelong learner, I am passionate about keeping up-to-date with the latest developments in software
+            development and exploring new technologies to enhance my skills and expertise. I am committed to delivering
+            exceptional results and working collaboratively with teams to drive success.</p>
+          <p>If you are seeking a driven and experienced software developer to join your team, then I would welcome the
+            opportunity to discuss how my skills and expertise can contribute to your organization's success.</p>
+        </div>
+
         <div class="row">
-            <div class="container">
-
-                <div class="logo">
-                    <a href="index.html">FAUZI</a>
-                </div>
-
-                <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
-
-                <ul class="nav-menu list-unstyled">
-                    <li><a href="#header" class="smoothScroll">Home</a></li>
-                    <li><a href="#about" class="smoothScroll">About</a></li>
-                    <li><a href="#achievement" class="smoothScroll">Achievement</a></li>
-                    <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
-                    <li><a href="#contact" class="smoothScroll">Contact</a></li>
-                </ul>
-
-            </div>
-        </div>
-    </nav>
-    <!-- End section navbar -->
-
-    <a href="https://api.whatsapp.com/send?phone=6282262311986" class="float" target="_blank">
-        <i class="fa fa-whatsapp my-float"></i>
-    </a>
-    <!-- start section header -->
-    <div id="header" class="home">
-
-        <div class="container">
-            <div class="header-content">
-                <h1 style="background-color:rgba(0,0,0,0.6);max-width:600px;">I'm <span class="typed"></span></h1>
-                <h3
-                    style="background-color:rgba(0,0,0,0.6);max-width:400px;color:white;text-align: center;margin-bottom: 2%;">
-                    Software Engineer</h3>
-
-                <ul class="list-unstyled list-social"
-                    style="background-color:rgba(0,0,0,0.6);max-width:200px;padding-left: 4%;">
-                    <li><a href="http://www.facebook.com/superzi1"><i class="ion-social-facebook"></i></a></li>
-                    <li><a href="http://www.twitter.com/zi_kazama19"><i class="ion-social-twitter"></i></a></li>
-                    <li><a href="http://www.instagram.com/zikazama"><i class="ion-social-instagram"></i></a></li>
-                    <li><a href="http://www.github.com/zikazama"><i class="ion-social-github"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!-- End section header -->
-
-
-    <!-- start section about us -->
-    <div id="about" class="paddsection">
-        <div class="container">
-            <div class="row justify-content-between">
-
-                <div class="col-lg-4 ">
-                    <div class="div-img-bg">
-                        <div class="about-img">
-                            <img src="images/me.jpeg" class="img-responsive" alt="me"
-                                style="transform:rotate(0deg);width: 250px;">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-7">
-                    <div class="about-descr">
-
-                        <p class="p-heading">im a web builder / develover based who loves clean, simple & unique design.
-                            i also enjoy crafting brand identities, icons, & ilustration work. </p>
-                        <p class="separator">Menerima jasa pembuatan website seperti landing page, perusahaan ataupun
-                            web personal.</p>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end section about us -->
-
-
-    <!-- start section services -->
-    <div id="services">
-        <div class="container">
-
-            <div class="services-carousel owl-theme">
-
-                <div class="services-block">
-
-                    <i class="ion-ios-browsers-outline"></i>
-                    <span>UI/UX DESIGN</span>
-                    <p class="separator">Sudah berpengalaman mendesain UI landing page seperti perusahaan kontraktor
-                        atau mebel </p>
-
-                </div>
-
-                <div class="services-block">
-
-                    <i class="ion-ios-lightbulb-outline"></i>
-                    <span>BRAND IDENTITY</span>
-                    <p class="separator">Memiliki brand dan manajemen yaitu <a
-                            href="http://www.facebook.com/vortex.store17">Vortex Store</a> </p>
-
-                </div>
-
-                <div class="services-block">
-
-                    <i class="ion-ios-color-wand-outline"></i>
-                    <span>WEB DESIGN</span>
-                    <p class="separator">Web desain dengan responsive menggunakan framework seperti bootstrap </p>
-
-                </div>
-
-                <div class="services-block">
-
-                    <i class="ion-ios-stopwatch-outline"></i>
-                    <span>ON TIME</span>
-                    <p class="separator">Waktu pengerjaan yang tepat waktu sesuai kesepakatan </p>
-
-                </div>
-
-                <div class="services-block">
-
-                    <i class="ion-ios-analytics-outline"></i>
-                    <span>Analytics</span>
-                    <p class="separator">Menganalisis informasi dan widgets apa saja yang dibutuhkan oleh client </p>
-
-                </div>
-
-                <div class="services-block">
-
-                    <i class="ion-ios-videocam-outline"></i>
-                    <span>VIDEOGRAPHY</span>
-                    <p class="separator">Menerima juga tambahan editing video untuk homepage website </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-    <!-- end section services -->
-
-
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-            <h2 class="mb-5">Education</h2>
-
-            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                <div class="resume-content mr-auto">
-                    <h3 class="mb-0">Politeknik Negeri Subang</h3>
-                    <div class="subheading mb-3">Ahli Madya Komputer</div>
-                    <div>Sistem Informasi</div>
-                    <p></p>
-                </div>
-                <div class="resume-date text-md-right">
-                    <span class="text-primary">2017 - 2020</span>
-                </div>
-            </div>
-
-            <div class="resume-item d-flex flex-column flex-md-row">
-                <div class="resume-content mr-auto">
-                    <h3 class="mb-0">SMA Negeri 11 Garut</h3>
-                    <div class="subheading mb-3">MIPA</div>
-                    <p></p>
-                </div>
-                <div class="resume-date text-md-right">
-                    <span class="text-primary">2014 - 2016</span>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-        <div class="my-auto">
-            <h2 class="mb-5">Skills</h2>
-
-            <h3>
-                <div class="subheading mb-3" style="text-align:center">Programming Languages &amp; Tools</div>
-                <ul class="list-inline list-icons" style="text-align:center">
-                    <li class="list-inline-item">
-                        <i class="devicons devicons-html5"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicons devicons-css3"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicons devicons-javascript"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicons devicons-jquery"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicons devicons-bootstrap"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicons devicons-wordpress"></i>
-                    </li>
-                </ul>
-            </h3>
-
-    </section>
-
-    <!-- start section sertifikat -->
-    <div id="achievement" class="text-center paddsection">
-
-        <div class="container">
-            <div class="section-title text-center">
-                <h2>My Achievement</h2>
-            </div>
-        </div>
-
-        <div class="container">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="images/profile.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Software Developer &amp; Mentor.</h3>
+            <!-- <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore
+              magna aliqua.
+            </p> -->
             <div class="row">
-                <div class="col-md-12">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+6282262311986</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bandung, INA</span></li>
 
-                    <div class="achievement-list">
-
-                        <ul class="nav list-unstyled" id="achievement-flters">
-                            <li class="filter filter-active" data-filter=".all">all</li>
-                            <li class="filter" data-filter=".skill-academy">skill academy</li>
-                            <li class="filter" data-filter=".microsoft">microsoft</li>
-                            <li class="filter" data-filter=".amazon">amazon</li>
-                            <li class="filter" data-filter=".dicoding">dicoding</li>
-                            <li class="filter" data-filter=".progate">progate</li>
-                            <li class="filter" data-filter=".sololearn">sololearn</li>
-                        </ul>
-
-                    </div>
-
-                    <div class="achievement-container">
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all skill-academy">
-                            <a class="popup-img" href="images/achievement/21.JPG">
-                                <img src="images/achievement/21.JPG" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all microsoft">
-                            <a class="popup-img" href="images/achievement/1.JPG">
-                                <img src="images/achievement/1.JPG" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all microsoft">
-                            <a class="popup-img" href="images/achievement/17.JPG">
-                                <img src="images/achievement/17.JPG" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all amazon">
-                            <a class="popup-img" href="images/achievement/2.JPG">
-                                <img src="images/achievement/2.JPG" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all amazon">
-                            <a class="popup-img" href="images/achievement/3.JPG">
-                                <img src="images/achievement/3.JPG" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all dicoding">
-                            <a class="popup-img" href="images/achievement/15.jpg">
-                                <img src="images/achievement/15.jpg" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all dicoding">
-                            <a class="popup-img" href="images/achievement/4.JPG">
-                                <img src="images/achievement/4.JPG" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all dicoding">
-                            <a class="popup-img" href="images/achievement/5.JPG">
-                                <img src="images/achievement/5.JPG" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all dicoding">
-                            <a class="popup-img" href="images/achievement/16.JPG">
-                                <img src="images/achievement/16.JPG" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all dicoding">
-                            <a class="popup-img" href="images/achievement/18.JPG">
-                                <img src="images/achievement/18.JPG" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all dicoding">
-                            <a class="popup-img" href="images/achievement/19.JPG">
-                                <img src="images/achievement/19.JPG" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all dicoding">
-                            <a class="popup-img" href="images/achievement/20.JPG">
-                                <img src="images/achievement/20.JPG" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all dicoding">
-                            <a class="popup-img" href="images/achievement/22.JPG">
-                                <img src="images/achievement/22.JPG" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all dicoding">
-                            <a class="popup-img" href="images/achievement/23.JPG">
-                                <img src="images/achievement/23.JPG" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all dicoding">
-                            <a class="popup-img" href="images/achievement/24.JPG">
-                                <img src="images/achievement/24.JPG" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all dicoding">
-                            <a class="popup-img" href="images/achievement/25.JPG">
-                                <img src="images/achievement/25.JPG" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all progate">
-                            <a class="popup-img" href="images/achievement/26.JPG">
-                                <img src="images/achievement/26.JPG" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all progate">
-                            <a class="popup-img" href="images/achievement/27.JPG">
-                                <img src="images/achievement/27.JPG" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all sololearn">
-                            <a class="popup-img" href="images/achievement/6.jpg">
-                                <img src="images/achievement/6.jpg" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all sololearn">
-                            <a class="popup-img" href="images/achievement/7.jpg">
-                                <img src="images/achievement/7.jpg" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all sololearn">
-                            <a class="popup-img" href="images/achievement/8.jpg">
-                                <img src="images/achievement/8.jpg" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all sololearn">
-                            <a class="popup-img" href="images/achievement/9.jpg">
-                                <img src="images/achievement/9.jpg" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all sololearn">
-                            <a class="popup-img" href="images/achievement/10.jpg">
-                                <img src="images/achievement/10.jpg" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all sololearn">
-                            <a class="popup-img" href="images/achievement/11.jpg">
-                                <img src="images/achievement/11.jpg" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all sololearn">
-                            <a class="popup-img" href="images/achievement/12.jpg">
-                                <img src="images/achievement/12.jpg" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all sololearn">
-                            <a class="popup-img" href="images/achievement/13.jpg">
-                                <img src="images/achievement/13.jpg" alt="img">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 achievement-thumbnail all sololearn">
-                            <a class="popup-img" href="images/achievement/14.jpg">
-                                <img src="images/achievement/14.jpg" alt="img">
-                            </a>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <!-- End section sertifikat -->
-
-
-    <!-- start section portfolio -->
-    <div id="portfolio" class="text-center paddsection">
-
-        <div class="container">
-            <div class="section-title text-center">
-                <h2>My Portfolio</h2>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-
-                    <div class="portfolio-list">
-
-                        <ul class="nav list-unstyled" id="portfolio-flters">
-                            <li class="filter filter-active" data-filter=".all">all</li>
-                            <li class="filter" data-filter=".wordpress">wordpress</li>
-                            <li class="filter" data-filter=".bootstrap">bootstrap</li>
-                            <li class="filter" data-filter=".framework">framework</li>
-                            <li class="filter" data-filter=".android">android</li>
-                        </ul>
-
-                    </div>
-
-                    <div class="portfolio-container">
-
-                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all bootstrap framework">
-                            <a class=" popup-img " href="images/portfolio/15.JPG ">
-                                <img src="images/portfolio/15.JPG " alt="img ">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all bootstrap wordpress">
-                            <a class=" popup-img " href="images/portfolio/13.JPG ">
-                                <img src="images/portfolio/13.JPG " alt="img ">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all bootstrap wordpress">
-                            <a class="popup-img " href="images/portfolio/12.JPG ">
-                                <img src="images/portfolio/12.JPG " alt="img ">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all bootstrap framework android ">
-                            <a class="popup-img " href="images/portfolio/11.JPG ">
-                                <img src="images/portfolio/11.JPG " alt="img ">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all bootstrap framework ">
-                            <a class="popup-img " href="images/portfolio/10.JPG ">
-                                <img src="images/portfolio/10.JPG " alt="img ">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all bootstrap framework ">
-                            <a class="popup-img " href="images/portfolio/9.JPG ">
-                                <img src="images/portfolio/9.JPG " alt="img ">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all bootstrap wordpress ">
-                            <a class="popup-img " href="images/portfolio/1.jpg ">
-                                <img src="images/portfolio/1.jpg " alt="img ">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all bootstrap wordpress ">
-                            <a class="popup-img " href="images/portfolio/8.jpg ">
-                                <img src="images/portfolio/8.jpg " alt="img ">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all bootstrap framework ">
-                            <a class="popup-img " href="images/portfolio/2.JPG ">
-                                <img src="images/portfolio/2.JPG " alt="img ">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all bootstrap framework ">
-                            <a class="popup-img " href="images/portfolio/3.JPG ">
-                                <img src="images/portfolio/3.JPG " alt="img ">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all bootstrap framework ">
-                            <a class="popup-img " href="images/portfolio/4.jpg ">
-                                <img src="images/portfolio/4.jpg " alt="img ">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all bootstrap framework ">
-                            <a class="popup-img " href="images/portfolio/5.jpg ">
-                                <img src="images/portfolio/5.jpg " alt="img ">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all android ">
-                            <a class="popup-img " href="images/portfolio/14.JPG ">
-                                <img src="images/portfolio/14.JPG " alt="img ">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all android ">
-                            <a class="popup-img " href="images/portfolio/6.jpg ">
-                                <img src="images/portfolio/6.jpg " alt="img ">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all android ">
-                            <a class="popup-img " href="images/portfolio/7.jpg ">
-                                <img src="images/portfolio/7.jpg " alt="img ">
-                            </a>
-                        </div>
-
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <!-- End section portfolio -->
-
-
-    <!-- start section journal -->
-    <div id="journal " class="text-left paddsection ">
-
-        <div class="container ">
-            <div class="section-title text-center ">
-                <h2>Tools</h2>
-            </div>
-        </div>
-
-        <div class="container ">
-            <div class="journal-block ">
-                <div class="row ">
-
-                    <div class="col-lg-4 col-md-6 ">
-                        <div class="journal-info ">
-
-                            <a href="# "><img src="images/blog-post-1.jpg " class="img-responsive " alt="img "></a>
-
-                            <div class="journal-txt ">
-
-                                <h4><a href="# ">WORDPRESS</a></h4>
-                                <p class="separator ">Untuk memudahkan client mengelola website, saya menggunakan CMS
-                                    yaitu wordpress
-                                </p>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 ">
-                        <div class="journal-info ">
-
-                            <a href="# "><img src="images/blog-post-2.jpg " class="img-responsive " alt="img "></a>
-
-                            <div class="journal-txt ">
-
-                                <h4><a href="# ">BOOTSTRAP</a></h4>
-                                <p class="separator ">Setiap web yang dibuat pasti responsive karena melihat banyaknya
-                                    pengguna smartphone
-                                </p>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 ">
-                        <div class="journal-info ">
-
-                            <a href="# "><img src="images/blog-post-3.jpg " class="img-responsive " alt="img "></a>
-
-                            <div class="journal-txt ">
-
-                                <h4><a href="# ">CODEIGNITER</a></h4>
-                                <p class="separator ">Menggunakan framework codeigniter untuk pembuatan website yang
-                                    kompleks
-                                </p>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <!-- End section journal -->
-
-
-    <!-- start sectoion contact -->
-    <div id="contact " class="paddsection ">
-        <div class="container ">
-            <div class="contact-block1 ">
-                <div class="row ">
-
-                    <div class="col-lg-12 ">
-                        <div class="contact-contact ">
-
-                            <h2 class="mb-30 ">GET IN TOUCH</h2>
-
-                            <ul class="contact-details ">
-                                <li><span>Jl. Arief Rachman</span></li>
-                                <li><span>Subang, Jawa Barat</span></li>
-                                <li><span>+62 82262311986</span></li>
-                                <li><span>fauzi190198@gmail.com</span></li>
-                            </ul>
-
-                        </div>
-                    </div>
-
-
-
-
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- start sectoion contact -->
-
-
-    <!-- start section footer -->
-    <div id="footer " class="text-center ">
-        <div class="container ">
-            <div class="socials-media text-center ">
-
-                <ul class="list-unstyled ">
-                    <li><a href="http://www.facebook.com/superzi1 "><i class="ion-social-facebook "></i></a></li>
-                    <li><a href="http://www.twitter.com/zi_kazama19 "><i class="ion-social-twitter "></i></a></li>
-                    <li><a href="http://www.instagram.com/zikazama "><i class="ion-social-instagram "></i></a></li>
-                    <li><a href="http://www.github.com/zikazama "><i class="ion-social-github "></i></a></li>
                 </ul>
-
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                    <span>fauzi.web19@gmail.com</span>
+                  </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
             </div>
+            <p>
+              Apart from working as a professional, I am also active as a mentor.
+            </p>
+          </div>
+        </div>
 
-            <p>&copy; Copyrights Fauzi. All rights reserved.</p>
+      </div>
+    </section><!-- End About Section -->
 
-            <div class="credits ">
-                <!--
-          Copyright
-        -->
-                Designed by Fauzi
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Facts</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p> -->
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p><strong>Happy Clients</strong> </p>
             </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p><strong>Projects</strong> </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="40000" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p><strong>Hours Of Support</strong> </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p><strong>Team</strong> </p>
+            </div>
+          </div>
 
         </div>
+
+      </div>
+    </section><!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p> -->
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">PHP <i class="val">5 Years Experience</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Golang <i class="val">3 Months Experience</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">5 Years Experience</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Flutter <i class="val">1 Year Experience</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Next.JS <i class="val">1 Year Experience</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">Codeigniter <i class="val">5 Years Experience</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Laravel <i class="val">5 Years Experience</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">WordPress/CMS <i class="val">1 Year Experience</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">React <i class="val">1 Year Experience</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Nest.JS <i class="val">2 Years Experience</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p> -->
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Fauzi Fadhlurrohman</h4>
+              <p><em>Experienced and results-oriented Software Developer with over 5 years of hands-on expertise in
+                  crafting robust and scalable software solutions. Proficient in multiple programming languages such as
+                  Python, Java, and JavaScript, with a strong foundation in software architecture and design principles.
+                  Skilled in full-stack development, adept at building responsive web applications and backend systems
+                  tailored to meet client requirements. Proven track record of delivering high-quality code on time and
+                  within budget constraints. Collaborative team player with excellent communication skills, capable of
+                  effectively translating complex technical concepts to non-technical stakeholders. Passionate about
+                  staying updated with emerging technologies and leveraging them to drive innovation in software
+                  development projects.
+                </em></p>
+              <ul>
+                <li>Bandung, Jawa Barat, INA</li>
+                <li>+6282262311986</li>
+                <li>fauzi.web19@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor degree of computer</h4>
+              <h5>2022 - 2024</h5>
+              <p><em>Information System - Bina Nusantara University</em></p>
+              <p>GPA : 3.75</p>
+            </div>
+            <div class="resume-item">
+              <h4>Associate degree of computer</h4>
+              <h5>2017 - 2020</h5>
+              <p><em>Information System - State Polytechnic of Subang</em></p>
+              <p>GPA : 3.77</p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Backend Developer</h4>
+              <h5>2022 - Present</h5>
+              <p><em>Member.id</em></p>
+              <!-- <ul>
+                <li>Lead in the design, development, and implementation of the graphic, layout, and production
+                  communication materials</li>
+                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the
+                  project. </li>
+                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the
+                  design</li>
+                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+              </ul> -->
+            </div>
+            <div class="resume-item">
+              <h4>Fullstack Developer</h4>
+              <h5>2023 - 2024</h5>
+              <p><em>Spacetoon</em></p>
+              <!-- <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
+                  advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul> -->
+            </div>
+            <div class="resume-item">
+              <h4>Learning Mentor</h4>
+              <h5>2023 - 2023</h5>
+              <p><em>Rakamin Academy</em></p>
+              <!-- <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
+                  advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul> -->
+            </div>
+            <div class="resume-item">
+              <h4>Backend Developer</h4>
+              <h5>2021 - 2022</h5>
+              <p><em>Digital Envision Pty Ltd</em></p>
+              <!-- <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
+                  advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul> -->
+            </div>
+            <div class="resume-item">
+              <h4>Mentor</h4>
+              <h5>2022 - 2022</h5>
+              <p><em>Bangkit Academy</em></p>
+              <!-- <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
+                  advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul> -->
+            </div>
+            <div class="resume-item">
+              <h4>Web Development Class Instructor</h4>
+              <h5>2022 - 2022</h5>
+              <p><em>MySkill.id</em></p>
+              <!-- <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
+                  advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul> -->
+            </div>
+            <div class="resume-item">
+              <h4>Backend Class Instructor Generasi Gigih 2.0</h4>
+              <h5>2022 - 2022</h5>
+              <p><em>Yayasan Anak Bangsa Bisa</em></p>
+              <!-- <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
+                  advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul> -->
+            </div>
+            <div class="resume-item">
+              <h4>Software Engineer</h4>
+              <h5>2020 - 2021</h5>
+              <p><em>PT. Lapi Divusi</em></p>
+              <!-- <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
+                  advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul> -->
+            </div>
+            <div class="resume-item">
+              <h4>Site Manager</h4>
+              <h5>2020 - 2020</h5>
+              <p><em>PT. Len Industri (Persero)</em></p>
+              <!-- <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
+                  advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul> -->
+            </div>
+            <div class="resume-item">
+              <h4>Web Developer (Intern)</h4>
+              <h5>2019 - 2020</h5>
+              <p><em>PT. Len Industri (Persero)</em></p>
+              <!-- <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
+                  advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul> -->
+            </div>
+            <div class="resume-item">
+              <h4>Fullstack Developer</h4>
+              <h5>2017 - Present</h5>
+              <p><em>Toko Dizital</em></p>
+              <!-- <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
+                  advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul> -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p> -->
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-mentor">Mentor</li>
+              <li data-filter=".filter-achieve">Achieve</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p> -->
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-briefcase"></i></div>
+            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+              occaecati cupiditate non provident</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="bi bi-card-checklist"></i></div>
+            <h4 class="title"><a href="">Dolor Sitema</a></h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat tarad limino ata</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="bi bi-bar-chart"></i></div>
+            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><i class="bi bi-binoculars"></i></div>
+            <h4 class="title"><a href="">Magni Dolores</a></h4>
+            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><i class="bi bi-brightness-high"></i></div>
+            <h4 class="title"><a href="">Nemo Enim</a></h4>
+            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+              voluptatum deleniti atque</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
+              soluta nobis est eligendi</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p> -->
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  I and Fauzi had a lot of projects back then and his works always timely, reliable and exceed
+                  expectation. Fauzi is a humble person yet solid professional. He knows what to achieve and how to do
+                  it.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img
+                  src="https://media.licdn.com/dms/image/D5635AQEPQkSTnzbqKA/profile-framedphoto-shrink_800_800/0/1697971996030?e=1712358000&v=beta&t=ucxyfDVQumSs0GlL4JLgCaYbyeJpfZJzJSHMnnVT0mo"
+                  class="testimonial-img" alt="">
+                <h3>Angga Fauzan</h3>
+                <h4>CEO & Co-Founder MySkill</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  I've known Fauzi since I was a classmate at Politeknik Negeri Subang. He's a tenacious person and has
+                  a high passion for information technology. He's the best programmer of our generation.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img
+                  src="https://media.licdn.com/dms/image/D5603AQGmAGJt-u_Tjg/profile-displayphoto-shrink_800_800/0/1693935043715?e=1717027200&v=beta&t=f0KmK4SYkQL8nFlnHy-1Dd2gBPmy-lM6eXTNT9t1E1w"
+                  class="testimonial-img" alt="">
+                <h3>Muhammad Ramadhan</h3>
+                <h4>Front End Developer | Web Developer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  I've known Fauzi since our time in Politeknik Negeri Subang. He is highly skilled in Information
+                  technology / Information System, a very passionate person and desire to learn & try something new.
+                  He looks after and takes good care of his team, and always put high team spirit in as his top
+                  priority.
+                  He is well spoken, has a very positive attitude and very pleasant to work with.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img
+                  src="https://media.licdn.com/dms/image/D5603AQHrxS-eGXxYRA/profile-displayphoto-shrink_800_800/0/1709562605703?e=1717027200&v=beta&t=5bt2-feZhFHoBesyAldgxl-jAtR-DmY3JBK8Lg81gUs"
+                  class="testimonial-img" alt="">
+                <h3>Muhammad Fahmi</h3>
+                <h4>VA Center Staff at PT Toyota Motor Manufacturing Indonesia</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Best programmer partner to work with, he learn and act fast if something need to be fixed quickly, and
+                  he has a great attitude as a friend.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img
+                  src="https://media.licdn.com/dms/image/D4E03AQFgc7NboMRZJg/profile-displayphoto-shrink_800_800/0/1700010688570?e=1717027200&v=beta&t=mqcb6CNsyXJvWUKnh0t83BVR6hSh_KSeN3B9vnAmvf0"
+                  class="testimonial-img" alt="">
+                <h3>Iqbal Febri Ramadhan</h3>
+                <h4>Software Engineer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Best Programmer in College
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="https://media.licdn.com/dms/image/C5603AQFeRaH4JnpO9g/profile-displayphoto-shrink_800_800/0/1591085403083?e=1717027200&v=beta&t=6Y3JGxLGYdFuhJDhTnLzFTvfYAPxkuv7KHLRvOWB28o" class="testimonial-img" alt="">
+                <h3>Firizki Rofa</h3>
+                <h4>Web Developer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p> -->
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-12 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Jl. Kopo Cirangrang, Kota Bandung, Jawa Barat, Indonesia</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>fauzi.web19@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+6282262311986</p>
+              </div>
+
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4526.4399436120075!2d107.58292563327568!3d-6.9602779538648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e8ce5df89ef1%3A0xfdc58944d9ad57c7!2sKopo%20ELOK!5e0!3m2!1sen!2sid!4v1711750070079!5m2!1sen!2sid"
+                frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <!-- <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div> -->
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <!-- <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iPortfolio</span></strong>
+      </div>
+      <div class="credits">
+        
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
     </div>
-    <!-- End section footer -->
+  </footer> -->
+  <!-- End  Footer -->
 
-    <!-- JavaScript Libraries -->
-    <script src="lib/jquery/jquery.min.js "></script>
-    <script src="lib/jquery/jquery-migrate.min.js "></script>
-    <script src="lib/bootstrap/js/bootstrap.bundle.min.js "></script>
-    <script src="lib/typed/typed.js "></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js "></script>
-    <script src="lib/magnific-popup/magnific-popup.min.js "></script>
-    <script src="lib/isotope/isotope.pkgd.min.js "></script>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
-    <!-- Contact Form JavaScript File -->
-    <script src="contactform/contactform.js "></script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-    <!-- Template Main Javascript File -->
-    <script src="js/main.js "></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
